@@ -3,6 +3,7 @@
 ### 1. Introduction
 1.1 An entity is defined as unique person, event or object and may have been referred to in different ways in multiple data records. The task of ‘resolution’ refers to reducing or separating something into its constituents. Thus, Entity Resolution (ER) in its very basic definition refers to the task of identifying and linking/grouping various manifestations of the same Entity across and within datasets or data sources. For example, there could be different ways of addressing the same person in text, addresses for
 businesses, or photos of a particular object. The goal of ER is to resolve entities, by identifying the records that represent the same entity and reconcile them to obtain one record per entity.
+
 1.2 Despite the fact that the world is saturated in profound amounts of data, the unfortunate reality is that data was never designed to be used in conjunction with other datasets for informed decision making. As such, datasets containing different aspects of information about a particular Entity are often found across the storage landscape in different places, within different schemas, and without consistent join keys. Moreover, the problem that arises when we search for similar items of any kind in a large dataset is that there may be far too many pairs of items to test each pair for their degree of similarity. This is where ER is useful, to methodically integrate the large, dissimilar data source and provide a all-inclusive view on the entity of interest. (Huang, 2020).
 
 ### 2. Motivation for ER
